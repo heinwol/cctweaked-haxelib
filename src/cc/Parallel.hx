@@ -1,7 +1,7 @@
 package cc;
 
 import haxe.Constraints;
-import haxe.extern.Rest;
+import haxe.Rest;
 
 @:native("parallel")
 extern class Parallel {

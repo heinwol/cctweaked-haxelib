@@ -1,6 +1,6 @@
 package cc;
 
-import haxe.extern.Rest;
+import haxe.Rest;
 
 typedef Color = Int;
 

@@ -2,7 +2,7 @@ package cc;
 
 import lua.Table;
 import lua.TableTools;
-import haxe.extern.Rest;
+import haxe.Rest;
 
 @:native("os")
 extern class OS {

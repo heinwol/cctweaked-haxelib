@@ -1,7 +1,7 @@
 package cc;
 
 import lua.Table;
-import haxe.extern.Rest;
+import haxe.Rest;
 
 @:native("shell")
 extern class Shell {

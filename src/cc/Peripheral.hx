@@ -2,7 +2,7 @@ package cc;
 
 import lua.Table;
 import haxe.Constraints;
-import haxe.extern.Rest;
+import haxe.Rest;
 
 @:native("peripheral")
 extern class Peripheral {
