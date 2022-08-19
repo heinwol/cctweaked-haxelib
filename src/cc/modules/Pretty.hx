@@ -24,5 +24,5 @@ extern class Pretty {
 	public static function print(doc:Doc, ?ribbon_frac:Int):Void;
 	public static function render(doc:Doc, ?width:Int, ?ribbon_frac:Int):String;
 	public static function pretty(obj:Dynamic, ?options:PrettyPrintOptions):String;
-	public static function pretty_print(obj:Dynamic, ?options:PrettyPrintOptions, ?ribbon_frac:Int):String;
+	public static function pretty_print(obj:Dynamic, ?options:PrettyPrintOptions, ?ribbon_frac:Int):Void;
 }
