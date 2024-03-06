@@ -2,6 +2,9 @@ package cc;
 
 @:native("vector")
 extern class Vector {
+	public var x:Int;
+	public var y:Int;
+	public var z:Int;
 	@:native("new") public static function create(x:Int, y:Int, z:Int):Vector;
 
 	public function add(other:Vector):Vector;
